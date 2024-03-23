@@ -1,0 +1,136 @@
+insert into Organizacao values(01, 'Royal Never Give Up', 'China', 'China');
+insert into Organizacao values(02, 'DRX', 'Korea', 'South Korea');
+insert into Organizacao values(03, 'Fnatic', 'EMEA', 'United Kingdom');
+insert into Organizacao values(04, 'Beyond Gaming', 'PCS', 'Taiwan');
+insert into Organizacao values(05, 'Mad Lions', 'EMEA', 'Spain');
+insert into Organizacao values(06, 'Evil Geniuses', 'North America', 'United States');
+insert into Organizacao values(07, 'Saigon Buffalo', 'Vietnam', 'Vietnam');
+insert into Organizacao values(08, 'DetonatioN FocusMe', 'Japan', 'Japan');
+insert into Organizacao values(09, 'Chiefs Esports Club', 'PCS', 'Australia');
+insert into Organizacao values(10, 'Instanbul Wildcats', 'EMEA', 'Turkey');
+insert into Organizacao values(11, 'Isurus', 'Latin America', 'Argentina');
+insert into Organizacao values(12, 'LOUD', 'Brazil', 'Brazil');  
+insert into Organizacao values(13, 'T1', 'Korea', 'South Korea');
+insert into Organizacao values(14, 'EDward Gaming', 'China', 'China');
+insert into Organizacao values(15, 'Cloud9', 'North America', 'United States');
+insert into Organizacao values(16, 'JD Gaming', 'China', 'China');
+insert into Organizacao values(17, 'Dplus KIA', 'Korea', 'South Korea');
+insert into Organizacao values(18, 'G2 Esports', 'EMEA', 'Germany');
+insert into Organizacao values(19, 'Rogue', 'EMEA', 'United States');
+insert into Organizacao values(20, 'Top Esports', 'China', 'China');
+insert into Organizacao values(21, 'GAM Esports', 'Vietnam', 'Vietnam');
+insert into Organizacao values(22, 'Gen.G', 'Korea', 'South Korea');
+insert into Organizacao values(23, '100 Thieves', 'North America', 'United States');
+insert into Organizacao values(24, 'CTBC Flying Oyster', 'PCS', 'Taiwan');  
+
+insert into Equipa values(01, 'RNG', 01);
+insert into Equipa values(02, 'Royal Club', 01);
+insert into Equipa values(03, 'DRX', 02);
+insert into Equipa values(04, 'DRX Challengers', 02);
+insert into Equipa values(05, 'DRX Academy', 02);
+insert into Equipa values(06, 'Fnatic', 03);
+insert into Equipa values(07, 'Fnatic TQ', 03);         
+insert into Equipa values(08, 'Beyond Gaming', 04);       
+insert into Equipa values(09, 'Mad Lions', 05);
+insert into Equipa values(10, 'Evil Geniuses', 06);
+insert into Equipa values(11, 'Evil Geniuses Challengers', 06);
+insert into Equipa values(12, 'Saigon Buffalo', 07);
+insert into Equipa values(13, 'DetonatioN FM', 08);
+insert into Equipa values(14, 'DetonatioN FocusMe Academy', 08);
+insert into Equipa values(15, 'Chiefs Esports Club', 09);
+insert into Equipa values(16, 'Instanbul Wildcats', 10);
+insert into Equipa values(17, 'Isurus', 11);
+insert into Equipa values(18, 'LOUD', 12);
+insert into Equipa values(19, 'LOUD Academy', 12);
+insert into Equipa values(20, 'T1', 13);
+insert into Equipa values(21, 'T1 Esports Academy', 13);
+insert into Equipa values(22, 'T1 Academy', 13);
+insert into Equipa values(23, 'EDward Gaming', 14);
+insert into Equipa values(24, 'EDward Gaming Youth Team', 14);
+insert into Equipa values(25, 'Cloud9', 15);
+insert into Equipa values(26, 'JD Gaming', 16);
+insert into Equipa values(27, 'Joy Dream', 16);
+insert into Equipa values(28, 'Dplus KIA', 17);
+insert into Equipa values(29, 'Dplus KIA Challengers', 17);
+insert into Equipa values(30, 'Dplus KIA Academy', 17);
+insert into Equipa values(31, 'G2 Esports', 18);
+insert into Equipa values(32, 'G2 Hel', 18);
+insert into Equipa values(33, 'Rogue', 19);
+insert into Equipa values(34, 'Top Esports', 20);
+insert into Equipa values(35, 'Top Esports Challenger', 20);
+insert into Equipa values(36, 'GAM Esports', 21);
+insert into Equipa values(37, 'Gen.G', 22);
+insert into Equipa values(38, 'Gen.G Global Academy', 22);
+insert into Equipa values(39, 'Gen.G Academy', 22);
+insert into Equipa values(40, '100 Thieves', 23);
+insert into Equipa values(41, 'CTBC Flying Oyster', 24);
+insert into Equipa values(42, 'CTBC Flying Oyster Academy', 24);
+insert into Equipa values(41, 'CTBC Flying Oyster', 24);
+insert into Equipa values(42, 'CTBC Flying Oyster Academy', 24);
+
+insert into Arena values(01, 'Arena Esports Stadium', 'Mexico City, Mexico', 140);
+insert into Arena values(02, 'Hulu Theatre at Madison Square Garden', 'New York, United States', 5500);
+insert into Arena values(03, 'State Farm Arena', 'Atlanta, United States', 21000);
+insert into Arena values(04, 'Chase Center', 'San Francisco, United States', 18064);
+
+
+insert into Jogador values(01, 'Bai Jia-Hao', 'Top Laner', '369', '12-07-2001', 'Chinese', 'China', 01);
+insert into Jogador values(02, 'Seo Jin-hyeok', 'Jungler', 'Kanavi', '02-11-2000', 'Korean', 'South Korea', 01);
+insert into Jogador values(03, 'Zeng Qi', 'Mid Laner', 'Yagao', '19-10-1998', 'Chinese', 'China', 01);
+insert into Jogador values(04, 'Wang Jie', 'ADC', 'Hope', '29-09-2000', 'Chinese', 'China', 01);
+insert into Jogador values(05, 'Lou Yun-Feng', 'Support', 'MISSING', '26-05-2001', 'Chinese', 'China', 01);
+
+insert into Jogador values(06, 'Huang Ren-Xing', 'Top Laner', 'Wayward', '23-06-2001', 'Chinese', 'China', 02);
+insert into Jogador values(07, 'Gao Tian-Liang', 'Jungler', 'Tian', '24-07-2000', 'Chinese', 'China', 02);
+insert into Jogador values(08, 'Zhuo Ding', 'Mid Laner', 'Knight', '22-05-2000', 'Chinese', 'China', 02);
+insert into Jogador values(09, 'Yu Wen-Bo', 'ADC', 'JackeyLove', '18-11-2000', 'Chinese', 'China', 02);
+insert into Jogador values(10, 'Ling Xu', 'Support', 'Mark', '20-05-1999', 'Chinese', 'China', 02);
+
+insert into Jogador values(11, 'Li Xuan-Jun', 'Top Laner', 'Flandre', '28-08-1998', 'Chinese', 'China', 03);
+insert into Jogador values(12, 'Zhao Li-Jie', 'Jungler', 'JieJie', '27-10-2001', 'Chinese', 'China', 03);
+insert into Jogador values(13, 'Lee Ye-chan', 'Mid Laner', 'Scout', '14-03-1998', 'Korean', 'China', 03);
+insert into Jogador values(14, 'Park Do-hyeon', 'ADC', 'Viper', '19-10-2000', 'Korean', 'South Korea', 03);
+insert into Jogador values(15, 'Tian Ye', 'Support', 'Meiko', '06-06-1998', 'Chinese', 'China', 03);
+
+
+insert into Jogador values(16, 'Chen Chen', 'Top Laner', 'Breathe', '19-02-2001', 'Chinese', 'China', 04);
+insert into Jogador values(17, 'Yan Yang-Wei', 'Jungler', 'Wei', '09-11-2002', 'Chinese', 'China', 04);
+insert into Jogador values(18, 'Li Yuan-Hao', 'Mid Laner', 'Xiaohu', '28-01-1998', 'Chinese', 'China', 04);
+insert into Jogador values(19, 'Chen Wei', 'ADC', 'GALA', '14-02-2001', 'Chinese', 'China', 04);
+insert into Jogador values(20, 'Shi Sen-Ming', 'Support', 'Ming', '22-12-1998', 'Chinese', 'China', 04);
+
+insert into Jogador values(21, 'Choi Hyeon-joon', 'Top Laner', 'Doran', '22-07-2000', 'Korean', 'South Korea', 05);
+insert into Jogador values(22, 'Han Wang-ho', 'Jungler', 'Peanut', '03-02-1998', 'Korean', 'South Korea', 05);
+insert into Jogador values(23, 'Jeong Ji-hoon', 'Mid Laner', 'Chovy', '03-03-2001', 'Korean', 'South Korea', 05);
+insert into Jogador values(24, 'Park Jae-hyuk', 'ADC', 'Ruler', '29-12-1998', 'Korean', 'South Korea', 05);
+insert into Jogador values(25, 'Son Si-woo', 'Support', 'Lehends', '24-12-1998', 'Korean', 'South Korea', 05);
+
+insert into Jogador values(26, 'Choi Woo-je', 'Top Laner', 'Zeus', '31-01-2004', 'Korean', 'South Korea', 06);
+insert into Jogador values(27, 'Mun Hyeon-jun', 'Jungler', 'Oner', '24-12-2002', 'Korean', 'South Korea', 06);
+insert into Jogador values(28, 'Lee Sang-hyeok', 'Mid Laner', 'Faker', '07-05-1996', 'Korean', 'South Korea', 06);
+insert into Jogador values(29, 'Lee Min-hyeong', 'ADC', 'Gumayusi', '06-02-2002', 'Korean', 'South Korea', 06);
+insert into Jogador values(30, 'Ryu Min-seok', 'Support', 'Keria', '14-10-2002', 'Korean', 'South Korea', 06);
+
+insert into Jogador values(31, 'Jang Ha-gwon', 'Top Laner', 'Nuguri', '17-07-1999', 'Korean', 'South Korea', 07);
+insert into Jogador values(32, 'Kim Geon-bu', 'Jungler', 'Canyon', '18-06-2001', 'Korean', 'South Korea', 07);
+insert into Jogador values(33, 'Heo Su', 'Mid Laner', 'Showmaker', '22-07-2000', 'Korean', 'South Korea', 07);
+insert into Jogador values(34, 'Seo Dae-gil', 'ADC', 'deokdam', '25-02-2000', 'Korean', 'South Korea', 07);
+insert into Jogador values(35, 'Kim Hyeong-gyu', 'Support', 'Kellin', '01-02-2001', 'Korean', 'South Korea', 07);
+
+insert into Jogador values(36, 'Hwang Seong-hoon', 'Top Laner', 'Kingen', '11-03-2000', 'Korean', 'South Korea', 08);
+insert into Jogador values(37, 'Hong Chang-hyeon', 'Jungler', 'Pyosik', '12-03-2000', 'Korean', 'South Korea', 08);
+insert into Jogador values(38, 'Kim Geon-woo', 'Mid Laner', 'Zeka', '28-11-2002', 'Korean', 'South Korea', 08);
+insert into Jogador values(39, 'Kim Hyuk-kyu', 'ADC', 'Deft', '23-10-1996', 'Korean', 'South Korea', 08);
+insert into Jogador values(40, 'Cho Geon-hee', 'Support', 'BeryL', '01-04-1997', 'Korean', 'South Korea', 08);
+
+insert into Jogador values(41, 'Andrei Pascu', 'Top Laner', 'Odoamne', '18-01-1995', 'Romanian', 'EMEA', 09);
+insert into Jogador values(42, 'Kim Geun-seong', 'Jungler', 'Malrang', '09-02-2000', 'Korean', 'South Korea', 09);
+insert into Jogador values(43, 'Emil Larsson', 'Mid Laner', 'Larssen', '30-03-2000', 'Swedish', 'EMEA', 09);
+insert into Jogador values(44, 'Markos Stamkopoulos', 'ADC', 'Comp', '23-10-1996', 'Greek', 'EMEA', 09);
+insert into Jogador values(45, 'Adrian Trybus', 'Support', 'Trymbi', '01-04-1997', 'Polish', 'EMEA', 09);
+
+insert into Jogador values(46, 'Andrei Pascu', 'Top Laner', 'Odoamne', '18-01-1995', 'Romanian', 'EMEA', 10);
+insert into Jogador values(47, 'Kim Geun-seong', 'Jungler', 'Malrang', '09-02-2000', 'Korean', 'South Korea', 09);
+insert into Jogador values(48, 'Emil Larsson', 'Mid Laner', 'Larssen', '30-03-2000', 'Swedish', 'EMEA', 09);
+insert into Jogador values(49, 'Markos Stamkopoulos', 'ADC', 'Comp', '23-10-1996', 'Greek', 'EMEA', 09);
+insert into Jogador values(50, 'Adrian Trybus', 'Support', 'Trymbi', '01-04-1997', 'Polish', 'EMEA', 09);
